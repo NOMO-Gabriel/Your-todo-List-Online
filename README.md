@@ -56,7 +56,7 @@ Pour utiliser cette application, vous avez besoin d'une base de données en loca
 
 3. **Créez une table** : Dans la base de données `todo`, créez une table `todos` avec les colonnes suivantes :
     - `id` : Entier (clé primaire, auto-incrément).
-    - `Title` : Texte (la tâche à effectuer).
+    - `Title` : VARCHAR (titre de la tâche à effectuer).
 
 vous pouvez visualiser ma table dans ma base de donnee ci dessous.
 ![voici un exemple](/demo/bd.png)
